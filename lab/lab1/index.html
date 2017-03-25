@@ -8,17 +8,48 @@
     <link rel="stylesheet" href="css/leaflet.css" />
     <!-- Choose a frontend framework CSS file: -->
     <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
-    <!-- <link rel="stylesheet" href="css/material.css" /> -->
+    <link rel="stylesheet" href="css/material.css" />
+    <link rel="stylesheet" href="css/mui.css" />
+    <!-- <link rel="stylesheet" href="css/mui.mini.css" /> -->
+    <link rel="stylesheet" href="css/mui-rtl.css" />
+    <!-- <link rel="stylesheet" href="css/mui-rtl.mini.css" /> -->
     <!-- <link rel="stylesheet" href="css/assembly.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Sidebar -->
+    <div class="leftsidebar">
+      <div class="PicHeader">
+        <div class="basket"> </div>
+      </div>
+      <div id="basketDivider" class="mui-divider"></div>
+      <div class="buttonList">
+        <button  id="Manu" class="mui-btn">Manufacturers</button>
+        <div class="mui-divider"></div>
+        <button  id="Purc" class="mui-btn">Purchases</button>
+        <div class="mui-divider"></div>
+        <button id="Bask" class="mui-btn">Basket Secrets</button>
+        <div class="mui-divider"></div>
+        <button id="Comm" class="mui-btn">Comments</button>
+        <div class="mui-divider"></div>
+      </div>
+    </div>
     <div class="sidebar">
       <nav class="navbar navbar-default">
         <div class="container-fluid clearfix">
           <div class="topright-button" style="float: right">
-            [Add New]
+            <div class="mui-dropdown">
+              <button id="dropdownButton" class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+                Add New
+                <span class="mui-caret"></span>
+              </button>
+              <ul class="mui-dropdown__menu">
+                <li><a href="#">View History</a></li>
+                <li><a href="#">Email Them</a></li>
+                <li><a href="#">Call Them</a></li>
+                <li><a href="#">Party</a></li>
+              </ul>
+            </div>
           </div>
           <div class="navbar-header">
             <a href="#">Manufacturers</a>
@@ -61,8 +92,10 @@
     <script src="js/leaflet.js"></script>
     <!-- Choose a frontend framework Javascript file: -->
     <!-- <script src="js/bootstrap.js"></script> -->
-    <!-- <script src="js/material.js"></script> -->
-    <!-- <script src="js/assembly.js"></script>  -->
+    <script src="js/material.js"></script>
+    <script src="js/mui.js"></script>
+    <!-- <script src="js/mui.mini.js"></script> -->
+    <!-- <script src="js/assembly.js"></script> -->
     <script src="js/setup.js"></script>
   </body>
 </html>

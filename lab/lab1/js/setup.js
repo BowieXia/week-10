@@ -11,3 +11,48 @@ var Stamen_TonerLite = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{
   ext: 'png'
 }).addTo(map);
 
+var hiden = false;
+$('#Manu').click(function(){
+  // $('.sidebar').toggle();
+  hiden = !hiden;
+  if(hiden) {
+    $('#sidebar').animate({width:0});
+    $('#map').animate({left:200});
+  }else {
+    $('#sidebar').animate({width:340});
+    $('#map').animate({left:540});
+  }
+});
+$('#Purc').click(function(){
+  // $('.sidebar').toggle();
+  hiden = !hiden;
+  if(hiden) {
+    $('#sidebar').animate({width:0});
+    $('#map').animate({left:200});
+  }else {
+    $('#sidebar').animate({width:340});
+    $('#map').animate({left:540});
+  }
+});
+$('#Bask').click(function(){
+  // $('.sidebar').toggle();
+  hiden = !hiden;
+  if(hiden) {
+    $('#sidebar').animate({width:0});
+    $('#map').animate({left:200});
+  }else {
+    $('#sidebar').animate({width:340});
+    $('#map').animate({left:540});
+  }
+});
+$('#Comm').click(function(){
+  // $('.sidebar').toggle();
+  hiden = !hiden;
+  if(hiden) {
+    $('#sidebar').animate({width:0});
+    $('#map').animate({left:200});
+  }else {
+    $('#sidebar').animate({width:340});
+    $('#map').animate({left:540});
+  }
+});
