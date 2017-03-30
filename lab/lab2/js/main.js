@@ -30,6 +30,7 @@ var Stamen_TonerLite = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolab
 
 var cartoUserName = 'boaoxxh';
 var cartoVizId = '317d594a-10d2-11e7-941d-0ef7f98ade21';
+//https://boaoxxh.carto.com/viz/317d594a-10d2-11e7-941d-0ef7f98ade21/public_map
 //https://boaoxxh.carto.com/viz/68bb0e6e-a7b1-11e6-b154-0ecd1babdde5/public_map
 //https://boaoxxh.carto.com/viz/317d594a-10d2-11e7-941d-0ef7f98ade21/public_map
 //https://boaoxxh.carto.com/viz/317d594a-10d2-11e7-941d-0ef7f98ade21/public_map
